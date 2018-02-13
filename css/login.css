@@ -1,0 +1,95 @@
+.form-group.last { 
+	margin-bottom:20px;
+}
+
+#Contenedor{
+	width: 500px;
+	margin: 50px auto;
+	background-color: #F3EDED;
+    border: 50px solid #ECE8E8;
+	height: 600px;
+	border-radius:8px;
+	padding: 0px 9px 0px 9px;
+}
+
+.Icon span{
+background: #A8A6A6;
+padding: 20px;
+border-radius: 120px;
+}
+
+.Icon{
+	margin-top: 10px;
+	margin-bottom:10px; 
+    color: #FFF;
+    font-size: 50px;
+    text-align: center;
+}
+
+.aviso{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+@media only screen and (max-width:320px){
+#Contenedor{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+@media only screen and (max-width:240px){
+	
+}
+
+.col-sm-9 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.panel-default {
+	opacity: 0.8;
+	margin-top: 20px;
+
+}
+
+@media (max-width: 992px) {
+	.content-block {
+		width: 80%!important;
+		
+	}
+	.containerc {
+		width: 90%;
+	}
+	p {
+		font-size: .9em;
+	}
+}
+
+
+.well-sm {
+	background-color: #fff;
+}
+
+.btn.btn-success {
+	background-color: #2E64FE !important;
+	color: #FFFFFF !important;
+	width: 35%;
+	border-color: #000000 !important;
+}
+
+.form-block{
+	margin: auto;
+	background-color: #fff;
+}
+
+
+
+.form-group {
+	width: 100%;
+}
+
+input, label, button, a, .panel-footer {
+	font-family: 'Narkisim';
+}

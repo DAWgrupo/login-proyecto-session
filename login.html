@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    <title>Comedor-ESPOL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script type="text/javascript" src="js/login.js"></script>
+
+
+  </head>
+<body>
+      <header class="masthead">
+        <div class="title text-center">
+          <h1 > Proyecto Comedor- Espol</h1>
+        </div>
+      </header>
+		
+	</div> 
+    <div id="Contenedor">
+    <div class="Icon">
+      <span class="glyphicon glyphicon-user"></span>
+    </div>
+
+      <form action="index.html" method="POST" name="FormEntrar" onSubmit="return login()">
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
+          <input type="email" class="form-control" name="user" placeholder="Correo" id="user">
+        </div>
+        <br>
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-lock"></i></span>
+          <input type="password" name="pass" class="form-control" placeholder="******" id="pass">
+        </div>
+        <br>
+        <button class="btn btn-lg btn-primary btn-block btn-signin" id="btn" type="submit" name="login">Entrar</button>
+        	<div class="aviso"> <p>Atención:</p>
+    	</div>
+    	<div class="mensaje">
+    		<p>En caso de que no tenga usuario, o su usuario se encuentre bloqueado dirigirse a la página del 
+    			<a href="http://www.espol.edu.ec/es/servicios/">servicio técnico</a>
+    			, y escoger la opción del menú Cuenta Electrónica.
+                   
+        </p>
+    	</div>
+      </form>
+     
+     </div>
+  
+     </body>
+</html>
